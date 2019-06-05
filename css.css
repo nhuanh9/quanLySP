@@ -1,0 +1,24 @@
+.addProduct{
+    width: 500px;
+    height: 100px;
+    background: tan;
+    border-radius: 5px;
+    text-align: center;
+}
+.pro{
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.app{
+    width: 800px;
+}
+#div1{
+    width: 50%;
+    display: inline-block;
+}
+#div2{
+    text-align: center;
+    float: right;
+}

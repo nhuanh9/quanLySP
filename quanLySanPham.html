@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body onload="run()">
+<div class="app">
+    <h3>Add New Project</h3>
+    <form action="" method="post">
+        <div class="addProduct">
+            <input type="text" placeholder="New Product" id="nameProduct" class="pro">
+            <input type="button" value="Add" onclick="addProduct()" class="pro">
+        </div>
+    </form>
+    <h3>Display All Product</h3>
+    <div id="div1">
+        <p>Product Name</p>
+    </div>
+    <div id="div2">
+        <p id="soLuong">Products</p>
+    </div>
+    <table>
+        <tbody id="productShow">
+
+        </tbody>
+    </table>
+</div>
+<div id="formEdit"></div>
+
+</body>
+<script src="quanLy.js"></script>
+</html>
